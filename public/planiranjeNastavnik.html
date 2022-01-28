@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="bs">
+
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/planiranjeNastavnikkk.css">
+  <link rel="stylesheet" href="css/zajednicki.css">
+  <title>Plan za nastavnika</title>
+</head>
+
+<body>
+  <div class="meni">
+    <a class="item" href="raspored.html">Raspored</a>
+    <a class="item" href="aktivnost.html">Aktivnost</a>
+    <a class="item" href="planiranjeNastavnik.html">Planiranje</a>
+    <a class="item" href="podaciStudent.html">Podaci o studentu</a>
+  </div>
+  <div class="center">
+    <form>
+      <div class="red">
+        <label for="predmet">Naziv predmeta:</label>
+        <input type="text" name="predmet" id="predmet">
+      </div>
+      <div class="red">
+        <label for="tip-aktivnosti">Tip aktivnosti:</label>
+        <select id="tip-aktivnosti">
+        </select>
+      </div>
+      <div class="red">
+        <label for="vrijeme-pocetka">Vrijeme početka:</label>
+        <input type="time" id="vrijeme-pocetka">
+      </div>
+      <div class="red">
+        <label for="vrijeme-kraja">Vrijeme kraja:</label>
+        <input type="time" id="vrijeme-kraja">
+      </div>
+      <div class="red">
+        <label for="dani">Dan:</label>
+        <select id="dani">
+        </select>
+      </div>
+    </form>
+    <div id="novi">
+      <button id="submit">Pošalji</button>
+    </div>
+
+    <div id="poruka"></div>
+  </div>
+  <script src="spirala4-zadatak3.js"> </script>
+</body>
+
+</html>
